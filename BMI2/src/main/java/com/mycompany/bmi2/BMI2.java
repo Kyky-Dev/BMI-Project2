@@ -20,8 +20,7 @@ public class BMI2 {
         System.out.println("Masukkan Tinggi Badan");
         tinggi = masukkan.nextFloat();
         
-        parameter = tinggi/100;
-        bmi = (berat/(parameter*parameter));
+        bmi = (berat/(tinggi*tinggi));
         
         System.out.println("Hasil BMI = " + bmi);
 
