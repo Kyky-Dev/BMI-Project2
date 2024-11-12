@@ -24,12 +24,13 @@ public class BMI2 {
         bmi = (berat/(parameter*parameter));
         
         System.out.println("Hasil BMI = " + bmi);
-        
-        if (bmi < 18){
+
+        if (jk = 1){
+        if (bmi < 19){
             System.out.println("Berat Terlalu ringan !!!");
             System.out.println("Ayo makan lebih banyak");
         }
-        else if(bmi > 18 && bmi <= 24){
+        else if(bmi => 19 && bmi <= 24){
             System.out.println("Beratmu Sudah Cukup !!!");
             System.out.println("Pertahankan pola makanmu");
         }
@@ -41,6 +42,26 @@ public class BMI2 {
             System.out.println("Parah mennnnn Obesitas ini !!!");
             System.out.println("Olahraga woyyyy");
         }
-        
+        }
+
+        if (jk = 2){
+        if (bmi < 18){
+            System.out.println("Berat Terlalu ringan !!!");
+            System.out.println("Ayo makan lebih banyak");
+        }
+        else if(bmi => 18 && bmi <= 24){
+            System.out.println("Beratmu Sudah Cukup !!!");
+            System.out.println("Pertahankan pola makanmu");
+        }
+        else if(bmi > 24 && bmi <= 29){
+            System.out.println("Beratmu Sedikit Terlalu Tinggi !!!");
+            System.out.println("Lakukan diet");
+        }
+        else if(bmi > 29){
+            System.out.println("Parah mennnnn Obesitas ini !!!");
+            System.out.println("Olahraga woyyyy");
+        }
+        }
+
     }
 }
